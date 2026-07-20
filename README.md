@@ -76,7 +76,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sudip-29/sudip-29/main/github-metrics.svg" alt="GitHub Metrics"/>
+  <img src="https://raw.githubusercontent.com/sudip-29/sudip-29/main/profile-summary-card-output/github_dark/0-profile-details.svg"/>
 </p>
 
 <p align="center">
