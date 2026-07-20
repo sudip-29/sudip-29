@@ -76,17 +76,17 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sudip-29/sudip-29/main/profile-summary-card-output/github_dark/0-profile-details.svg"/>
-</p>
-
-<p align="center">
   <img src="https://komarev.com/ghpvc/?username=sudip-29&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sudip-29/sudip-29/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img src="https://ghchart.rshah.org/409ba5/sudip-29" alt="Contribution Calendar" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/409ba5/sudip-29" alt="GitHub Contribution Calendar" width="98%" />
+  <img src="https://raw.githubusercontent.com/sudip-29/sudip-29/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sudip-29&theme=github-dark&hide_border=true" width="100%" />
 </p>
