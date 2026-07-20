@@ -1,6 +1,12 @@
-<h1 align="center">Hello. I’m glad you’re here to explore my technical craft</h1>
-
-###
+<p align="center">
+  <a href="https://sudip-29.github.io/BrowseMe/">
+    <img
+      src="./intro.gif"
+      alt="👋 Hi there! I'm Sudip Pal"
+      title="👋 Hi there! I'm Sudip Pal"
+    />
+  </a>
+</p>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="60" alt="c logo"  />
