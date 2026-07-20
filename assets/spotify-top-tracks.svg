@@ -1,0 +1,14 @@
+
+<svg width="600" height="260" xmlns="http://www.w3.org/2000/svg">
+<style>
+.title { fill:#1DB954; font:700 24px Arial; }
+.text { fill:#ffffff; font:18px Arial; }
+</style>
+
+<rect width="100%" height="100%" rx="20" fill="#121212"/>
+
+<text x="30" y="45" class="title">🎵 Top Tracks</text>
+
+<text x="30" y="90" class="text">Unavailable</text><text x="30" y="120" class="text">Premium/API access required</text><text x="30" y="150" class="text">Will update automatically</text><text x="30" y="180" class="text">After next refresh</text><text x="30" y="210" class="text">🎵</text>
+
+</svg>
