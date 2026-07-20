@@ -90,29 +90,8 @@
 </p>
 
 <p align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31hy6sswu4y4bxttzicnlmlruoia&redirect=true">
-    <img
-      src="https://spotify-github-profile.kittinanx.com/api/view?uid=31hy6sswu4y4bxttzicnlmlruoia&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=false&bar_color=53b14f&bar_color_cover=false"
-      alt="Spotify Now Playing"
-      width="450"
-    />
-  </a>
-</p>
-
-<p align="center">
-  <img
-    src="https://spotify-github-profile.kittinanx.com/api/top?uid=31hy6sswu4y4bxttzicnlmlruoia&theme=novatorem&limit=5"
-    alt="Top Tracks"
-    width="450"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://spotify-github-profile.kittinanx.com/api/top-artists?uid=31hy6sswu4y4bxttzicnlmlruoia&theme=novatorem&limit=5"
-    alt="Top Artists"
-    width="450"
-  />
+  <img src="./assets/spotify-top-artists.svg" width="49%">
+  <img src="./assets/spotify-top-tracks.svg" width="49%">
 </p>
 
 <h2 align="center">🐍 Watch the Snake Eat My Contributions!</h2>
