@@ -76,7 +76,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sudip-29&theme=onedark" />
+  <img src="https://raw.githubusercontent.com/sudip-29/sudip-29/main/github-metrics.svg" alt="GitHub Metrics"/>
 </p>
 
 <p align="center">
