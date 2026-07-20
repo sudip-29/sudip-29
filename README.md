@@ -49,17 +49,15 @@
 </div>
 
 
-<div align="center" >
-<a  href="https://github.com/sudip-29">
+<h2 align="center">📊 GitHub Analytics</h2>
 
-<img src="https://raw.githubusercontent.com/sudip-29/profile-summary-cards/master/profile-summary-card-output/nord_dark/3-stats.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/sudip-29/profile-summary-cards/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/sudip-29/profile-summary-cards/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg" width="32.5%">
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sudip-29&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudip-29&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
 
-</a>
-
-<details>
-  <summary>More stats</summary>
-</div>
+<p align="center">
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=sudip-29&theme=tokyonight&hide_border=true"/>
+</p>
 
 
