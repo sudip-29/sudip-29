@@ -60,14 +60,33 @@
 </div> -->
 
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sudip-29&show_icons=true&theme=github_dark&hide_border=true" />
-</p>
+<h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudip-29&layout=compact&theme=github_dark&hide_border=true" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=sudip-29&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" height="170" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sudip-29&layout=compact&theme=github_dark&hide_border=true" height="170" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=sudip-29&theme=github-dark&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sudip-29&theme=github-dark&hide_border=true" width="98%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sudip-29&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" width="98%" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sudip-29&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sudip-29/sudip-29/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/409ba5/sudip-29" alt="GitHub Contribution Calendar" width="98%" />
 </p>
