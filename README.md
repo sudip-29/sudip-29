@@ -4,6 +4,7 @@
       src="./intro.gif"
       alt="👋 Hi there! I'm Sudip Pal"
       title="👋 Hi there! I'm Sudip Pal"
+      width="100%"
     />
   </a>
 </p>
