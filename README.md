@@ -83,6 +83,8 @@
   <img src="https://ghchart.rshah.org/409ba5/sudip-29" alt="Contribution Calendar" width="100%" />
 </p>
 
+<h2 align="center">🐍 Watch the Snake Eat My Contributions!</h2>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/sudip-29/sudip-29/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 </p>
