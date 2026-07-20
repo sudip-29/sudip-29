@@ -86,7 +86,3 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/sudip-29/sudip-29/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 </p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sudip-29&theme=github-dark&hide_border=true" width="100%" />
-</p>
