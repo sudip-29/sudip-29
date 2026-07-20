@@ -45,7 +45,7 @@
 
 ###
 
-<!-- <div align="center">
+<div align="center">
   <a href="https://linkedin.com/in/sudip-pal-546403318" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"/>
 </a>
@@ -58,10 +58,6 @@
 <a href="https://discord.gg/sudip_29" target="_blank">
   <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"/>
 </a>
-</div> -->
-
-<div align="center">
-<a href="https://linkedin.com/in/sudip-pal-546403318" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="LinkedIn"/></a><a href="https://twitter.com/SudipPal2005" target="_blank"><img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&color=1DA1F2&logoColor=white&style=for-the-badge" height="25" alt="Twitter"/></a><a href="https://instagram.com/_sudip_29_" target="_blank"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&logoColor=white&style=for-the-badge" height="25" alt="Instagram"/></a><a href="https://discord.gg/sudip_29" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&color=7289DA&logoColor=white&style=for-the-badge" height="25" alt="Discord"/></a>
 </div>
 
 ###
