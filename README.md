@@ -68,7 +68,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=sudip-29&theme=github-dark&hide_border=true" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=sudip-29&theme=github-dark&hide_border=true" />
 </p>
 
 <p align="center">
