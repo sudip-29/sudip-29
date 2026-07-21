@@ -47,53 +47,23 @@
 
 ## 🚀 Tech Stack
 
-<div align="center">
+### 💻 Languages
+`C` • `Python` • `Java` • `JavaScript` • `Kotlin`
 
-<table>
-<tr>
-<td align="center"><b>💻 Languages</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=c,py,java,js,kotlin" />
-</td>
-</tr>
+### 🎨 Frontend
+`HTML` • `CSS` • `Figma`
 
-<tr>
-<td align="center"><b>🎨 Frontend</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=html,css,figma" />
-</td>
-</tr>
+### ⚙️ Backend
+`Spring Boot` • `Node.js` • `FastAPI`
 
-<tr>
-<td align="center"><b>⚙️ Backend</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=spring,nodejs,fastapi" />
-</td>
-</tr>
+### 🗄️ Database
+`MongoDB` • `PostgreSQL`
 
-<tr>
-<td align="center"><b>🗄️ Database</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=mongodb,postgresql" />
-</td>
-</tr>
+### 📱 Mobile
+`Android` • `Jetpack Compose`
 
-<tr>
-<td align="center"><b>📱 Mobile</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=androidstudio,kotlin" />
-</td>
-</tr>
-
-<tr>
-<td align="center"><b>🛠️ Tools</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=git,github,idea,pycharm,vscode,postman" />
-</td>
-</tr>
-</table>
-
-</div>
+### 🛠️ Tools
+`Git` • `GitHub` • `Docker` • `Postman` • `IntelliJ IDEA` • `Android Studio` • `VS Code` • `PyCharm`
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
