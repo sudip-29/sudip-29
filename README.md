@@ -9,7 +9,7 @@
   </a>
 </p>
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="60" alt="c logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
@@ -41,9 +41,20 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="60" alt="nodejs logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="60" alt="postgresql logo"  />
-</div>
+</div> -->
 
 
+
+## 🚀 Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| 💻 Languages | <img src="https://skillicons.dev/icons?i=c,py,java,js,kotlin" /> |
+| 🎨 Frontend | <img src="https://skillicons.dev/icons?i=html,css,figma" /> |
+| ⚙️ Backend | <img src="https://skillicons.dev/icons?i=spring,nodejs,fastapi" /> |
+| 🗄️ Database | <img src="https://skillicons.dev/icons?i=mongodb,postgresql" /> |
+| 📱 Mobile | <img src="https://skillicons.dev/icons?i=androidstudio,kotlin" /> |
+| 🛠️ Tools | <img src="https://skillicons.dev/icons?i=git,github,idea,pycharm,vscode,postman" /> |
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
