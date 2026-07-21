@@ -1,0 +1,171 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800"
+     height="660">
+
+<rect width="100%" height="100%" fill="#0d1117"/>
+
+<text
+    x="20"
+    y="25"
+    fill="white"
+    font-size="24"
+    font-weight="bold">
+
+🎬 Favorite Movies
+
+</text>
+
+
+        <g>
+
+            <image
+                href="posters/3-idiots.jpg"
+                x="20"
+                y="40"
+                width="100"
+                height="150"/>
+
+            <text x="140" y="65" fill="white">3 Idiots</text>
+
+            <text x="140" y="90" fill="#bbbbbb">
+                📅 2009
+            </text>
+
+            <text x="140" y="115" fill="#bbbbbb">
+                ⭐ 8.4
+            </text>
+
+            <text x="140" y="140" fill="#bbbbbb">
+                Comedy, Drama
+            </text>
+
+        </g>
+        
+        <g>
+
+            <image
+                href="posters/zindagi-na-milegi-dobara.jpg"
+                x="20"
+                y="140"
+                width="100"
+                height="150"/>
+
+            <text x="140" y="165" fill="white">Zindagi Na Milegi Dobara</text>
+
+            <text x="140" y="190" fill="#bbbbbb">
+                📅 2011
+            </text>
+
+            <text x="140" y="215" fill="#bbbbbb">
+                ⭐ 8.2
+            </text>
+
+            <text x="140" y="240" fill="#bbbbbb">
+                Comedy, Drama, Musical
+            </text>
+
+        </g>
+        
+        <g>
+
+            <image
+                href="posters/project-hail-mary.jpg"
+                x="20"
+                y="240"
+                width="100"
+                height="150"/>
+
+            <text x="140" y="265" fill="white">Project Hail Mary</text>
+
+            <text x="140" y="290" fill="#bbbbbb">
+                📅 2026
+            </text>
+
+            <text x="140" y="315" fill="#bbbbbb">
+                ⭐ 8.2
+            </text>
+
+            <text x="140" y="340" fill="#bbbbbb">
+                Adventure, Comedy, Drama
+            </text>
+
+        </g>
+        
+        <g>
+
+            <image
+                href="posters/avengers--endgame.jpg"
+                x="20"
+                y="340"
+                width="100"
+                height="150"/>
+
+            <text x="140" y="365" fill="white">Avengers: Endgame</text>
+
+            <text x="140" y="390" fill="#bbbbbb">
+                📅 2019
+            </text>
+
+            <text x="140" y="415" fill="#bbbbbb">
+                ⭐ 8.4
+            </text>
+
+            <text x="140" y="440" fill="#bbbbbb">
+                Action, Adventure, Sci-Fi
+            </text>
+
+        </g>
+        
+        <g>
+
+            <image
+                href="posters/sita-ramam.jpg"
+                x="20"
+                y="440"
+                width="100"
+                height="150"/>
+
+            <text x="140" y="465" fill="white">Sita Ramam</text>
+
+            <text x="140" y="490" fill="#bbbbbb">
+                📅 2022
+            </text>
+
+            <text x="140" y="515" fill="#bbbbbb">
+                ⭐ 8.5
+            </text>
+
+            <text x="140" y="540" fill="#bbbbbb">
+                Action, Drama, Musical
+            </text>
+
+        </g>
+        
+        <g>
+
+            <image
+                href="posters/moonfall.jpg"
+                x="20"
+                y="540"
+                width="100"
+                height="150"/>
+
+            <text x="140" y="565" fill="white">Moonfall</text>
+
+            <text x="140" y="590" fill="#bbbbbb">
+                📅 2022
+            </text>
+
+            <text x="140" y="615" fill="#bbbbbb">
+                ⭐ 5.2
+            </text>
+
+            <text x="140" y="640" fill="#bbbbbb">
+                Action, Adventure, Sci-Fi
+            </text>
+
+        </g>
+        
+
+</svg>
