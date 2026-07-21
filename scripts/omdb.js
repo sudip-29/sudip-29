@@ -33,18 +33,40 @@ export async function downloadPoster(url, filename) {
 
   const filepath = path.join(folder, filename);
 
-  const response = await axios({
-    url,
-    method: "GET",
-    responseType: "stream",
-  });
+  // Skip if already downloaded
+  if (fs.existsSync(filepath)) {
+    return filepath;
+  }
 
-  const writer = fs.createWriteStream(filepath);
+  // Retry download up to 3 times
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      console.log(`Downloading ${filename} (Attempt ${attempt})`);
 
-  response.data.pipe(writer);
+      const response = await axios({
+        url,
+        method: "GET",
+        responseType: "stream",
+        timeout: 15000,
+      });
 
-  return new Promise((resolve, reject) => {
-    writer.on("finish", () => resolve(filepath));
-    writer.on("error", reject);
-  });
+      const writer = fs.createWriteStream(filepath);
+
+      response.data.pipe(writer);
+
+      await new Promise((resolve, reject) => {
+        writer.on("finish", resolve);
+        writer.on("error", reject);
+      });
+
+      return filepath;
+
+    } catch (err) {
+      console.log(`Retry ${attempt} failed: ${err.message}`);
+
+      if (attempt === 3) {
+        throw err;
+      }
+    }
+  }
 }

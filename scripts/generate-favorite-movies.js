@@ -1,3 +1,4 @@
+import path from "path";
 import fs from "fs";
 import dotenv from "dotenv";
 import { getMovie, downloadPoster } from "./omdb.js";
@@ -10,70 +11,139 @@ const favorites = JSON.parse(
 
 async function generate() {
   let cards = "";
-  let y = 40;
+
+  const cardWidth = 360;
+  const cardHeight = 180;
+  const margin = 20;
+
+  let index = 0;
 
   for (const movie of favorites) {
     try {
+      console.log(`Fetching: ${movie.title}`);
 
-        console.log(`Fetching: ${movie.title}`);
+      const info = await getMovie(movie.title);
 
-        const info = await getMovie(movie.title);
+      const filename =
+        info.Title
+          .toLowerCase()
+          .replace(/[^a-z0-9]/g, "-") + ".jpg";
 
-        const filename =
-            info.Title
-                .toLowerCase()
-                .replace(/[^a-z0-9]/g, "-") + ".jpg";
+      await downloadPoster(info.Poster, filename);
 
-        await downloadPoster(info.Poster, filename);
+      const posterPath = path.join(
+        "assets",
+        "posters",
+        filename
+      );
 
-        cards += `
-        <g>
+      const posterBase64 = fs.readFileSync(
+        posterPath,
+        {
+          encoding: "base64",
+        }
+      );
 
-            <image
-                href="posters/${filename}"
-                x="20"
-                y="${y}"
-                width="100"
-                height="150"/>
+      const x =
+        20 +
+        (index % 2) *
+          (cardWidth + margin);
 
-            <text x="140" y="${y+25}" fill="white">${info.Title}</text>
+      const y =
+        60 +
+        Math.floor(index / 2) *
+          (cardHeight + margin);
 
-            <text x="140" y="${y+50}" fill="#bbbbbb">
-                📅 ${info.Year}
-            </text>
+      cards += `
+      <g>
 
-            <text x="140" y="${y+75}" fill="#bbbbbb">
-                ⭐ ${info.imdbRating}
-            </text>
+        <rect
+          x="${x}"
+          y="${y}"
+          width="${cardWidth}"
+          height="${cardHeight}"
+          rx="15"
+          fill="#161b22"
+        />
 
-            <text x="140" y="${y+100}" fill="#bbbbbb">
-                ${info.Genre}
-            </text>
+        <image
+          href="data:image/jpeg;base64,${posterBase64}"
+          x="${x + 15}"
+          y="${y + 15}"
+          width="100"
+          height="150"
+        />
 
-        </g>
-        `;
+        <text
+          x="${x + 130}"
+          y="${y + 35}"
+          fill="white"
+          font-size="18"
+          font-weight="bold">
+          ${info.Title}
+        </text>
 
-        y += 100;
+        <text
+          x="${x + 130}"
+          y="${y + 65}"
+          fill="#8b949e"
+          font-size="14">
+          📅 ${info.Year}
+        </text>
 
-    } catch(err) {
+        <text
+          x="${x + 130}"
+          y="${y + 90}"
+          fill="#8b949e"
+          font-size="14">
+          ⭐ IMDb ${info.imdbRating}
+        </text>
 
-        console.error(`Failed to fetch ${movie.title}:`, err.message);
+        <text
+          x="${x + 130}"
+          y="${y + 115}"
+          fill="#8b949e"
+          font-size="14">
+          ${info.Genre}
+        </text>
 
+      </g>
+      `;
+
+      index++;
+
+    } catch (err) {
+      console.error(
+        `Failed to fetch ${movie.title}:`,
+        err.message
+      );
     }
-}
-const svg = `
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="800"
-     height="${y + 20}">
+  }
 
-<rect width="100%" height="100%" fill="#0d1117"/>
+  const rows = Math.ceil(index / 2);
+
+  const svgHeight =
+    rows *
+      (cardHeight + margin) +
+    80;
+
+  const svg = `
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="800"
+height="${svgHeight}">
+
+<rect
+width="100%"
+height="100%"
+fill="#0d1117"/>
 
 <text
-    x="20"
-    y="25"
-    fill="white"
-    font-size="24"
-    font-weight="bold">
+x="20"
+y="35"
+fill="white"
+font-size="24"
+font-weight="bold">
 
 🎬 Favorite Movies
 
@@ -83,12 +153,15 @@ ${cards}
 
 </svg>
 `;
-fs.writeFileSync(
+
+  fs.writeFileSync(
     "assets/favorite-movies.svg",
     svg
-);
+  );
 
-console.log("✅ Favorite Movies Generated");
+  console.log(
+    "✅ Favorite Movies Generated"
+  );
 }
 
 generate();

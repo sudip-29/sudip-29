@@ -94,7 +94,6 @@
   <img src="./assets/spotify-top-tracks.svg" width="49%">
 </p>
 
-## 🎬 Favorite Movies
 
 <p align="center">
   <img src="assets/favorite-movies.svg" alt="Favorite Movies" width="100%">
