@@ -45,18 +45,6 @@
 
 
 
-
-<!-- <div align="center" >
-<a  href="https://github.com/sudip-29">
-
-<img src="https://raw.githubusercontent.com/sudip-29/profile-summary-cards/master/profile-summary-card-output/nord_dark/3-stats.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/sudip-29/profile-summary-cards/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/sudip-29/profile-summary-cards/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg" width="32.5%">
-
-</a>
-</div> -->
-
-
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
