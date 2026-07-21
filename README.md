@@ -94,6 +94,12 @@
   <img src="./assets/spotify-top-tracks.svg" width="49%">
 </p>
 
+## 🎬 Favorite Movies
+
+<p align="center">
+  <img src="assets/favorite-movies.svg" alt="Favorite Movies" width="100%">
+</p>
+
 <h2 align="center">🐍 Watch the Snake Eat My Contributions!</h2>
 
 <p align="center">
