@@ -47,14 +47,53 @@
 
 ## 🚀 Tech Stack
 
-| Category | Technologies |
-|----------|--------------|
-| 💻 Languages | <img src="https://skillicons.dev/icons?i=c,py,java,js,kotlin" /> |
-| 🎨 Frontend | <img src="https://skillicons.dev/icons?i=html,css,figma" /> |
-| ⚙️ Backend | <img src="https://skillicons.dev/icons?i=spring,nodejs,fastapi" /> |
-| 🗄️ Database | <img src="https://skillicons.dev/icons?i=mongodb,postgresql" /> |
-| 📱 Mobile | <img src="https://skillicons.dev/icons?i=androidstudio,kotlin" /> |
-| 🛠️ Tools | <img src="https://skillicons.dev/icons?i=git,github,idea,pycharm,vscode,postman" /> |
+<div align="center">
+
+<table>
+<tr>
+<td align="center"><b>💻 Languages</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=c,py,java,js,kotlin" />
+</td>
+</tr>
+
+<tr>
+<td align="center"><b>🎨 Frontend</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=html,css,figma" />
+</td>
+</tr>
+
+<tr>
+<td align="center"><b>⚙️ Backend</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=spring,nodejs,fastapi" />
+</td>
+</tr>
+
+<tr>
+<td align="center"><b>🗄️ Database</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=mongodb,postgresql" />
+</td>
+</tr>
+
+<tr>
+<td align="center"><b>📱 Mobile</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=androidstudio,kotlin" />
+</td>
+</tr>
+
+<tr>
+<td align="center"><b>🛠️ Tools</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=git,github,idea,pycharm,vscode,postman" />
+</td>
+</tr>
+</table>
+
+</div>
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
