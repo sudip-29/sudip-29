@@ -9,7 +9,7 @@
   </a>
 </p>
 
-<!-- <div align="center">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="60" alt="c logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
@@ -41,29 +41,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="60" alt="nodejs logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="60" alt="postgresql logo"  />
-</div> -->
+</div>
 
 
 
-## 🚀 Tech Stack
 
-### 💻 Languages
-`C` • `Python` • `Java` • `JavaScript` • `Kotlin`
-
-### 🎨 Frontend
-`HTML` • `CSS` • `Figma`
-
-### ⚙️ Backend
-`Spring Boot` • `Node.js` • `FastAPI`
-
-### 🗄️ Database
-`MongoDB` • `PostgreSQL`
-
-### 📱 Mobile
-`Android` • `Jetpack Compose`
-
-### 🛠️ Tools
-`Git` • `GitHub` • `Docker` • `Postman` • `IntelliJ IDEA` • `Android Studio` • `VS Code` • `PyCharm`
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
