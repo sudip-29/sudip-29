@@ -46,6 +46,15 @@
 
 
 
+<h2 align="center">🌱 Currently Learning</h2>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" />
+<img src="https://img.shields.io/badge/Cloud%20Computing-4285F4?style=for-the-badge&logo=icloud&logoColor=white" />
+
+</p>
+
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
@@ -66,10 +75,10 @@
   <img src="https://komarev.com/ghpvc/?username=sudip-29&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
+
 <p align="center">
   <img src="https://ghchart.rshah.org/409ba5/sudip-29" alt="Contribution Calendar" width="100%" />
 </p>
-
 
 <h2 align="center">🎵 Currently Listening To</h2>
 
@@ -110,10 +119,36 @@
 </p>
 
 
+<h2 align="center">✨ Fun Facts</h2>
+
+<p align="center">
+
+😅 I can spend hours debugging... only to realize I missed a semicolon.<br><br>
+
+☕ My code runs faster with Bengali Rocks... or maybe that's just my imagination. 😄<br><br>
+
+🎵 My playlist changes more often than my GitHub profile picture.<br><br>
+
+🚗 I can watch car and bike reviews for hours without planning to buy one.<br><br>
+
+😄 My most-used keyboard shortcut is <code>Ctrl + Z</code>.
+
+</p>
+
 <h2 align="center">📫 Connect With Me</h2>
 <div align="center">
   <a href="https://linkedin.com/in/sudip-pal-546403318" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"/></a><a href="https://twitter.com/SudipPal2005" target="_blank"><img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"/></a><a href="https://instagram.com/_sudip_29_" target="_blank"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"/></a><a href="https://discord.gg/sudip_29" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"/></a>
 </div>
+
+<h2 align="center">💬 Favorite Quote</h2>
+
+<p align="center">
+
+<i>"Listen, smile, agree, and then do whatever you were going to do anyway."</i>
+
+<b>— Robert Downey Jr.</b>
+
+</p>
 
 
 <h2 align="center">🐍 Watch the Snake Eat My Contributions!</h2>
