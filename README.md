@@ -146,7 +146,7 @@
 
 <i>"Listen, smile, agree, and then do whatever you were going to do anyway."</i>
 
-<b>— Robert Downey Jr.</b>
+<b align="right">— Robert Downey Jr.</b>
 
 </p>
 
