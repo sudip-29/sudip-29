@@ -143,11 +143,8 @@
 <h2 align="center">💬 Favorite Quote</h2>
 
 <p align="center">
-
-<i>"Listen, smile, agree, and then do whatever you were going to do anyway."</i>
-
-<b align="right">— Robert Downey Jr.</b>
-
+  <i>"Remember that just because you hit bottom doesn't mean you have to stay there."</i><br><br>
+  <b>— Robert Downey Jr.</b>
 </p>
 
 
