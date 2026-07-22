@@ -93,6 +93,27 @@
   <img src="assets/favorite-movies.svg" alt="Favorite Movies" width="100%">
 </p>
 
+
+## 🎮 Beyond Coding
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/🎵%20Music-1DB954?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🎬%20Movies-E50914?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🏏%20Cricket-008000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🏍️%20Cars%20%26%20Bikes-FF6F00?style=for-the-badge" />
+<img src="https://img.shields.io/badge/⚙️%20Engine%20Tech-555555?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🚀%20Tech%20Explorer-0A66C2?style=for-the-badge" />
+
+</p>
+
+
+<h2 align="center">📫 Connect With Me</h2>
+<div align="center">
+  <a href="https://linkedin.com/in/sudip-pal-546403318" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"/></a><a href="https://twitter.com/SudipPal2005" target="_blank"><img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"/></a><a href="https://instagram.com/_sudip_29_" target="_blank"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"/></a><a href="https://discord.gg/sudip_29" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"/></a>
+</div>
+
+
 <h2 align="center">🐍 Watch the Snake Eat My Contributions!</h2>
 
 <p align="center">
@@ -100,8 +121,3 @@
 </p>
 
 
-
-<h2 align="center">📫 Connect With Me</h2>
-<div align="center">
-  <a href="https://linkedin.com/in/sudip-pal-546403318" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"/></a><a href="https://twitter.com/SudipPal2005" target="_blank"><img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"/></a><a href="https://instagram.com/_sudip_29_" target="_blank"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"/></a><a href="https://discord.gg/sudip_29" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"/></a>
-</div>
