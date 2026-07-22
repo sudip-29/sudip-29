@@ -121,19 +121,13 @@
 
 <h2 align="center">✨ Fun Facts</h2>
 
-<p align="center">
-
-😅 I can spend hours debugging... only to realize I missed a semicolon.<br><br>
-
-☕ My code runs faster with Bengali Rocks... or maybe that's just my imagination. 😄<br><br>
-
-🎵 My playlist changes more often than my GitHub profile picture.<br><br>
-
-🚗 I can watch car and bike reviews for hours without planning to buy one.<br><br>
-
-😄 My most-used keyboard shortcut is <code>Ctrl + Z</code>.
-
-</p>
+<table align="center">
+<tr><td>😅 I can spend hours debugging... only to realize I missed a semicolon.</td></tr>
+<tr><td>☕ My code runs faster with Bengali Rocks... or maybe that's just my imagination. 😄</td></tr>
+<tr><td>🎵 My playlist changes more often than my GitHub profile picture.</td></tr>
+<tr><td>🚗 I can watch car and bike reviews for hours without planning to buy one.</td></tr>
+<tr><td>😄 My most-used keyboard shortcut is <code>Ctrl + Z</code>.</td></tr>
+</table>
 
 <h2 align="center">📫 Connect With Me</h2>
 <div align="center">
