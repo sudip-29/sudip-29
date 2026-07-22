@@ -80,6 +80,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/spotify-now-playing.svg" width="700" alt="Spotify Now Playing"/>
+</p>
+
+<p align="center">
   <img src="./assets/spotify-top-artists.svg" width="49%">
   <img src="./assets/spotify-top-tracks.svg" width="49%">
 </p>

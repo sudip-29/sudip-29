@@ -1,6 +1,8 @@
 import dotenv from "dotenv";
 dotenv.config();
 import axios from "axios";
+import fs from "fs";
+import path from "path";
 
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
 const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
@@ -44,7 +46,26 @@ async function spotifyRequest(endpoint) {
 }
 
 export async function getNowPlaying() {
-  return await spotifyRequest("me/player/currently-playing");
+  const token = await getAccessToken();
+
+  try {
+    const response = await axios.get(
+      "https://api.spotify.com/v1/me/player/currently-playing",
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+
+    return response.data;
+  } catch (err) {
+    if (err.response?.status === 204) {
+      return null;
+    }
+
+    throw err;
+  }
 }
 
 export async function getTopArtists() {
@@ -53,4 +74,37 @@ export async function getTopArtists() {
 
 export async function getTopTracks() {
   return await spotifyRequest("me/top/tracks?limit=5");
+}
+
+export async function downloadAlbumCover(url) {
+    if (!url || url === "N/A") return null;
+
+    const folder = "assets/spotify";
+
+    if (!fs.existsSync(folder)) {
+        fs.mkdirSync(folder, { recursive: true });
+    }
+
+    const filepath = path.join(folder, "album.jpg");
+
+    if (fs.existsSync(filepath)) {
+        return filepath;
+    }
+
+    const response = await axios({
+        url,
+        method: "GET",
+        responseType: "stream",
+    });
+
+    const writer = fs.createWriteStream(filepath);
+
+    response.data.pipe(writer);
+
+    await new Promise((resolve, reject) => {
+        writer.on("finish", resolve);
+        writer.on("error", reject);
+    });
+
+    return filepath;
 }
