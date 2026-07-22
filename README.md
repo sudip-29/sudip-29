@@ -94,7 +94,8 @@
 </p>
 
 
-## 🎮 Beyond Coding
+<h2 align="center">🎮 Beyond Coding</h2>
+
 
 <p align="center">
 
