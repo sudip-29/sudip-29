@@ -6,6 +6,7 @@
   "scripts": {
     "auth": "node scripts/auth.js",
     "spotify:test": "node scripts/test.js",
+    "spotify:now": "node scripts/generate-now-playing.js",
     "spotify:artists": "node scripts/generate-top-artists.js",
     "spotify:tracks": "node scripts/generate-top-tracks.js",
     "movies": "node scripts/generate-favorite-movies.js"

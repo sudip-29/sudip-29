@@ -88,6 +88,7 @@
   <img src="./assets/spotify-top-tracks.svg" width="49%">
 </p>
 
+<h2 align="center">⭐ All-Time Favorite Movies</h2>
 
 <p align="center">
   <img src="assets/favorite-movies.svg" alt="Favorite Movies" width="100%">
