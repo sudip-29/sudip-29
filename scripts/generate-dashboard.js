@@ -1,7 +1,6 @@
 import fs from "fs";
 
 import { svg } from "./utils.js";
-import { header } from "./header.js";
 import { profile } from "./profile.js";
 import { statCard } from "./stats.js";
 import { contributionGraph } from "./graph.js";
@@ -45,7 +44,6 @@ export async function generateDashboard() {
 
         `
 
-${header()}
 
 ${profile(user)}
 

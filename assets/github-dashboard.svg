@@ -63,46 +63,6 @@ viewBox="0 0 1600 1710">
 
 
 
-<!-- Dashboard Title -->
-
-<text
-x="70"
-y="70"
-font-size="42"
-font-family="Inter,Segoe UI,Arial"
-font-weight="700"
-fill="url(#titleGradient)">
-GitHub Dashboard
-</text>
-
-<!-- Live Indicator -->
-
-<circle
-cx="1360"
-cy="58"
-r="6"
-fill="#3FB950">
-
-<animate
-attributeName="r"
-values="5;7;5"
-dur="1.8s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text
-x="1375"
-y="64"
-font-size="18"
-font-family="Inter,Segoe UI,Arial"
-fill="#3FB950">
-Live from GitHub API
-</text>
-
-
-
-
 
 
 <g>
@@ -2009,7 +1969,7 @@ stroke="#58A6FF"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="212.89880396864362 490.0884539600077"
+stroke-dasharray="212.30159289351468 490.0884539600077"
 stroke-dashoffset="0">
 
 <animate
@@ -2030,13 +1990,13 @@ stroke="#3FB950"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="166.53020351465557 490.0884539600077"
-stroke-dashoffset="-212.89880396864362">
+stroke-dasharray="167.4378298940117 490.0884539600077"
+stroke-dashoffset="-212.30159289351468">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-212.89880396864362"
+to="-212.30159289351468"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2051,13 +2011,13 @@ stroke="#F0883E"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="47.570897786416424 490.0884539600077"
-stroke-dashoffset="-379.4290074832992">
+stroke-dasharray="47.437454730456096 490.0884539600077"
+stroke-dashoffset="-379.7394227875264">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-379.4290074832992"
+to="-379.7394227875264"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2072,13 +2032,13 @@ stroke="#BC8CFF"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="43.775645873717494 490.0884539600077"
-stroke-dashoffset="-426.9999052697156">
+stroke-dasharray="43.65284903292097 490.0884539600077"
+stroke-dashoffset="-427.17687751798246">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-426.9999052697156"
+to="-427.17687751798246"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2093,13 +2053,13 @@ stroke="#FF7BCE"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="19.31290281657462 490.0884539600077"
-stroke-dashoffset="-470.7755511434331">
+stroke-dasharray="19.25872740910429 490.0884539600077"
+stroke-dashoffset="-470.82972655090344">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-470.7755511434331"
+to="-470.82972655090344"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2152,7 +2112,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-Kotlin (43.4%)
+Kotlin (43.3%)
 </text>
 
 <circle
@@ -2170,7 +2130,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-JavaScript (34.0%)
+JavaScript (34.2%)
 </text>
 
 <circle
