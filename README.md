@@ -122,7 +122,7 @@
 <h2 align="center">✨ Fun Facts</h2>
 
 <p align="center">😅 I can spend hours debugging... only to realize I missed a semicolon.</p>
-<p align="center">☕ My code runs faster with Bengali Rocks... or maybe that's just my imagination. 😄</p>
+<p align="center">🤘 My code runs faster with Bengali Rocks... or maybe that's just my imagination. 😄</p>
 <p align="center">🎵 My playlist changes more often than my GitHub profile picture.</p>
 <p align="center">🚗 I can watch car and bike reviews for hours without planning to buy one.</p>
 <p align="center">😄 My most-used keyboard shortcut is <code>Ctrl + Z</code>.</p>
