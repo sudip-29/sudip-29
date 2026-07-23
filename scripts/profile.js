@@ -133,31 +133,13 @@ ${text(90,845,"Location",18,colors.gray)}
 ${text(190,845,location,18)}
 
 ${text(90,910,"Website",18,colors.gray)}
-<a href="https://github.com/sudip-29" target="_blank">
-    <text
-        x="190"
-        y="905"
-        font-size="18"
-        fill="${colors.blue}"
-        style="cursor:pointer;text-decoration:underline;">
-        sudip-29
-    </text>
-</a>
+${text(190,910,"https://sudip-29.github.io/BrowseMe/",12,colors.white)}
 
 ${text(85,975,"Company",19,colors.gray)}
 ${text(190,975,user.company || "Not Provided",19)}
 
 ${text(85,1040,"Email",19,colors.gray)}
-<a href="mailto:hey.thisissudip@email.com">
-    <text
-        x="190"
-        y="1040"
-        font-size="18"
-        fill="${colors.blue}"
-        style="cursor:pointer;text-decoration:underline;">
-        Mail Me
-    </text>
-</a>
+${text(190,1040,"hey.thisissudip@gmail.com",15,colors.white)}
 
 `;
 }
