@@ -138,7 +138,7 @@ stroke-width="5"/>
 
 <image
 <image
-    href="https://raw.githubusercontent.com/sudip-29/sudip-29/main/assets/my-photo.png"
+    href="https://raw.githubusercontent.com/sudip-29/sudip-29/main/assets/my-photo.jpg"
     x="125"
     y="155"
     width="210"
@@ -1298,7 +1298,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-23 Jul 26
+24 Jul 26
 </text>
 
 
@@ -1989,7 +1989,7 @@ stroke="#58A6FF"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="223.54328716539294 490.0884539600077"
+stroke-dasharray="213.73249492835205 490.0884539600077"
 stroke-dashoffset="0">
 
 <animate
@@ -2010,13 +2010,13 @@ stroke="#3FB950"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="150.3529855320575 490.0884539600077"
-stroke-dashoffset="-223.54328716539294">
+stroke-dasharray="165.2631809513203 490.0884539600077"
+stroke-dashoffset="-213.73249492835205">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-223.54328716539294"
+to="-213.73249492835205"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2031,13 +2031,13 @@ stroke="#F0883E"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="49.949340561587526 490.0884539600077"
-stroke-dashoffset="-373.8962726974504">
+stroke-dasharray="47.757180784209076 490.0884539600077"
+stroke-dashoffset="-378.9956758796724">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-373.8962726974504"
+to="-378.9956758796724"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2052,13 +2052,13 @@ stroke="#BC8CFF"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="45.964334200018584 490.0884539600077"
-stroke-dashoffset="-423.8456132590379">
+stroke-dasharray="43.94706703503924 490.0884539600077"
+stroke-dashoffset="-426.75285666388146">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-423.8456132590379"
+to="-426.75285666388146"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2073,13 +2073,13 @@ stroke="#FF7BCE"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="20.278506500951163 490.0884539600077"
-stroke-dashoffset="-469.8099474590565">
+stroke-dasharray="19.38853026108707 490.0884539600077"
+stroke-dashoffset="-470.6999236989207">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-469.8099474590565"
+to="-470.6999236989207"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2132,7 +2132,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-Kotlin (45.6%)
+Kotlin (43.6%)
 </text>
 
 <circle
@@ -2150,7 +2150,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-JavaScript (30.7%)
+JavaScript (33.7%)
 </text>
 
 <circle
@@ -2168,7 +2168,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-HTML (10.2%)
+HTML (9.7%)
 </text>
 
 <circle
@@ -2186,7 +2186,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-CSS (9.4%)
+CSS (9.0%)
 </text>
 
 <circle
@@ -2204,7 +2204,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-Python (4.1%)
+Python (4.0%)
 </text>
 
 

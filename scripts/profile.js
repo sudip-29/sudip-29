@@ -27,7 +27,7 @@ stroke-width="5"/>
 
 <image
 <image
-    href="https://raw.githubusercontent.com/sudip-29/sudip-29/main/assets/my-photo.png"
+    href="https://raw.githubusercontent.com/sudip-29/sudip-29/main/assets/my-photo.jpg"
     x="125"
     y="155"
     width="210"
