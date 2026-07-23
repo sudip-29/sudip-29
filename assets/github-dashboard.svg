@@ -16,6 +16,15 @@ viewBox="0 0 1600 1710">
     }
     </style>
 
+    <!-- Avatar Clip Path -->
+    <clipPath id="avatarClip">
+        <circle
+            cx="230"
+            cy="260"
+            r="105"/>
+    </clipPath>
+
+
         <filter id="shadow">
             <feDropShadow
                 dx="0"
@@ -137,39 +146,50 @@ stroke-width="5"/>
 <!-- Avatar -->
 
 <image
-<image
     href="https://raw.githubusercontent.com/sudip-29/sudip-29/main/assets/my-photo.jpg"
     x="125"
     y="155"
     width="210"
     height="210"
-    clip-path="circle(105px at 105px 105px)"/>
-x="125"
-y="155"
-width="210"
-height="210"
-clip-path="circle(105px at 105px 105px)"/>
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#avatarClip)"/>
 
-<!-- Rotating Ring -->
 
 <circle
-cx="220"
-cy="250"
-r="100"
-fill="none"
-stroke="#58A6FF"
-stroke-width="3"
-stroke-dasharray="8 12">
+    cx="230"
+    cy="260"
+    r="108"
+    fill="none"
+    stroke="#58A6FF"
+    stroke-width="3"
+    stroke-dasharray="8 12">
 
-<animateTransform
-attributeName="transform"
-attributeType="XML"
-type="rotate"
-from="0 220 250"
-to="360 220 250"
-dur="20s"
-repeatCount="indefinite"/>
+    <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 230 260"
+        to="360 230 260"
+        dur="20s"
+        repeatCount="indefinite"/>
+</circle>
 
+<circle
+    cx="230"
+    cy="260"
+    r="114"
+    fill="none"
+    stroke="#BC8CFF"
+    stroke-width="2"
+    stroke-dasharray="4 18"
+    opacity="0.7">
+
+    <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="360 230 260"
+        to="0 230 260"
+        dur="30s"
+        repeatCount="indefinite"/>
 </circle>
 
 <!-- Name -->

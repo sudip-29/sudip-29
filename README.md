@@ -96,13 +96,6 @@
         width="100%">
 </p>
 
-<p align="center">
-  <img src="./assets/github-stats.svg" width="32%">
-  <img src="./assets/github-languages-repo.svg" width="32%">
-  <img src="./assets/github-languages-commit.svg" width="32%">
-</p>
-
-
 
 <h2 align="center">🎵 Currently Listening To</h2>
 

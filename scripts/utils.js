@@ -61,6 +61,15 @@ export function filters() {
     }
     </style>
 
+    <!-- Avatar Clip Path -->
+    <clipPath id="avatarClip">
+        <circle
+            cx="230"
+            cy="260"
+            r="105"/>
+    </clipPath>
+
+
         <filter id="shadow">
             <feDropShadow
                 dx="0"
