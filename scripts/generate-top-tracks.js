@@ -4,11 +4,15 @@ import { getTopTracks } from "./spotify.js";
 
 dotenv.config();
 
-function truncateTrack(trackName, artistName, maxChars = 40) {
+function truncateTrack(trackName, artistName, maxChars = 52) {
 
     const suffix = ` — ${artistName}`;
 
     const available = maxChars - suffix.length;
+
+    if (available <= 3) {
+        return `${trackName.substring(0, maxChars - 3)}...`;
+    }
 
     if (trackName.length <= available) {
         return `${trackName}${suffix}`;
@@ -31,10 +35,10 @@ async function generate() {
 
     if (data.items) {
       tracks = data.items.map((track, index) =>
-          `${index + 1}. ${truncateTrack(
-              track.name,
-              track.artists[0].name
-          )}`
+        `${index + 1}. ${truncateTrack(
+            track.name,
+            track.artists[0].name
+        )}`
       );
     }
   } catch (err) {
