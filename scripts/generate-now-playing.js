@@ -9,9 +9,12 @@ async function generate() {
     const data = await getNowPlaying();
 
     let title = "Nothing Playing";
-    let artist = "Open Spotify and enjoy music 🎵";
+    let artist = "Spotify is currently idle";
     let albumArt = "https://i.scdn.co/image/ab67616d0000b273000000000000000000000000";
-    let albumArtBase64 = "";
+    let albumArtBase64 = fs.readFileSync(
+        "assets/spotify/default-album.jpg",
+        "base64"
+    );
 
     if (data && data.item) {
       title = data.item.name;

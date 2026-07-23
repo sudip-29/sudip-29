@@ -88,7 +88,7 @@ export async function downloadAlbumCover(url) {
     const filepath = path.join(folder, "album.jpg");
 
     if (fs.existsSync(filepath)) {
-        return filepath;
+        fs.unlinkSync(filepath);
     }
 
     const response = await axios({

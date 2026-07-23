@@ -22,7 +22,8 @@ async function generate() {
       );
     }
   } catch (err) {
-    console.log("⚠ Unable to fetch tracks. Using placeholder.");
+    console.log(err.response?.status);
+    console.log(err.response?.data);
   }
 
   const svg = `
