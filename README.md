@@ -10,7 +10,7 @@
 </p>
 
 
-<h2 align="center">📊 GitHub Dashboard</h2>
+<h2 align="center">📊 Dashboard</h2>
 
 <p align="center">
     <img
