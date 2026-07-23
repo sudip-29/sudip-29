@@ -9,7 +9,8 @@
     "spotify:now": "node scripts/generate-now-playing.js",
     "spotify:artists": "node scripts/generate-top-artists.js",
     "spotify:tracks": "node scripts/generate-top-tracks.js",
-    "movies": "node scripts/generate-favorite-movies.js"
+    "movies": "node scripts/generate-favorite-movies.js",
+    "github:stats": "node scripts/generate-stats.js"
   },
   "repository": {
     "type": "git",

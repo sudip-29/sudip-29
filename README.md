@@ -56,7 +56,7 @@
 </p>
 
 
-<h2 align="center">📊 GitHub Analytics</h2>
+<!-- <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=sudip-29&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" height="170" />
@@ -78,7 +78,31 @@
 
 <p align="center">
   <img src="https://ghchart.rshah.org/409ba5/sudip-29" alt="Contribution Calendar" width="100%" />
+</p> -->
+
+
+  <!-- <h2 align="center">📊 GitHub Analytics</h2>
+
+  <p align="center">
+  <img src="./assets/github-streak.svg" width="100%">
+</p> -->\
+
+
+<h2 align="center">📊 GitHub Dashboard</h2>
+
+<p align="center">
+    <img
+        src="./assets/github-dashboard.svg"
+        width="100%">
 </p>
+
+<p align="center">
+  <img src="./assets/github-stats.svg" width="32%">
+  <img src="./assets/github-languages-repo.svg" width="32%">
+  <img src="./assets/github-languages-commit.svg" width="32%">
+</p>
+
+
 
 <h2 align="center">🎵 Currently Listening To</h2>
 

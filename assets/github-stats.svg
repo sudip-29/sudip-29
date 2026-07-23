@@ -1,0 +1,17 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="230">
+  <rect width="100%" height="100%" rx="20" fill="#161B22" stroke="#30363D"/>
+
+  <text x="25" y="35" font-size="22" fill="#58A6FF" font-weight="bold">
+    GitHub Stats
+  </text>
+
+  <text x="25" y="70" fill="#C9D1D9" font-size="16">👤 sudip-29</text>
+  <text x="25" y="100" fill="#C9D1D9" font-size="16">📦 Public Repos: 6</text>
+  <text x="25" y="130" fill="#C9D1D9" font-size="16">⭐ Stars: 1</text>
+  <text x="25" y="160" fill="#C9D1D9" font-size="16">🍴 Forks: 0</text>
+  <text x="25" y="190" fill="#C9D1D9" font-size="16">👥 Followers: 3</text>
+
+  <text x="240" y="100" fill="#C9D1D9" font-size="16">➡️ Following: 3</text>
+  <text x="240" y="130" fill="#C9D1D9" font-size="16">📅 Joined: 30 Jul 2025</text>
+</svg>

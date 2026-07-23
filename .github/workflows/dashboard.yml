@@ -1,0 +1,31 @@
+name: GitHub Dashboard
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm install
+
+      - run: node scripts/generate-dashboard.js
+        env:
+          CUSTOM_TOKEN_GITHUB: ${{ secrets.CUSTOM_TOKEN_GITHUB }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update GitHub Dashboard
