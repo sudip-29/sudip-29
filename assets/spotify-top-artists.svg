@@ -2,7 +2,7 @@
 <svg width="600" height="260" xmlns="http://www.w3.org/2000/svg">
 <style>
 .title { fill:#1DB954; font:700 24px Arial; }
-.text { fill:#ffffff; font:18px Arial; }
+.text { fill:#ffffff; font:18px Arial Bold; }
 </style>
 
 <rect width="100%" height="100%" rx="20" fill="#121212"/>
