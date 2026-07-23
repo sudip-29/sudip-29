@@ -4,6 +4,19 @@ import { getTopTracks } from "./spotify.js";
 
 dotenv.config();
 
+function truncateTrack(trackName, artistName, maxChars = 40) {
+
+    const suffix = ` — ${artistName}`;
+
+    const available = maxChars - suffix.length;
+
+    if (trackName.length <= available) {
+        return `${trackName}${suffix}`;
+    }
+
+    return `${trackName.substring(0, available - 3).trim()}...${suffix}`;
+}
+
 async function generate() {
   let tracks = [
     "Unavailable",
@@ -17,8 +30,11 @@ async function generate() {
     const data = await getTopTracks();
 
     if (data.items) {
-      tracks = data.items.map(
-        (track, index) => `${index + 1}. ${track.name} — ${track.artists[0].name}`
+      tracks = data.items.map((track, index) =>
+          `${index + 1}. ${truncateTrack(
+              track.name,
+              track.artists[0].name
+          )}`
       );
     }
   } catch (err) {
@@ -30,7 +46,7 @@ async function generate() {
 <svg width="600" height="260" xmlns="http://www.w3.org/2000/svg">
 <style>
 .title { fill:#1DB954; font:700 24px Arial; }
-.text { fill:#ffffff; font:18px Arial; }
+.text { fill:#ffffff; font:16px Arial; }
 </style>
 
 <rect width="100%" height="100%" rx="20" fill="#121212"/>
@@ -38,11 +54,16 @@ async function generate() {
 <text x="30" y="45" class="title">🎵 Top Tracks</text>
 
 ${tracks
-  .map(
-    (track, i) =>
-      `<text x="30" y="${90 + i * 30}" class="text">${track}</text>`
-  )
-  .join("")}
+    .map(
+        (track, i) =>
+`<text
+x="30"
+y="${90 + i * 30}"
+class="text">
+${track}
+</text>`
+    )
+    .join("")}
 
 </svg>
 `;

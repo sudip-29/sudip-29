@@ -2,13 +2,38 @@
 <svg width="600" height="260" xmlns="http://www.w3.org/2000/svg">
 <style>
 .title { fill:#1DB954; font:700 24px Arial; }
-.text { fill:#ffffff; font:18px Arial; }
+.text { fill:#ffffff; font:16px Arial; }
 </style>
 
 <rect width="100%" height="100%" rx="20" fill="#121212"/>
 
 <text x="30" y="45" class="title">🎵 Top Tracks</text>
 
-<text x="30" y="90" class="text">1. Khat — Navjot Ahuja</text><text x="30" y="120" class="text">2. Khawne Gorachand, Khawne Kaalaa (From "Lawho Gouranger Naam Rey") — Arijit Singh</text><text x="30" y="150" class="text">3. Aaro Ekbar — Rupam Islam</text><text x="30" y="180" class="text">4. Nemesis — Rupam Islam</text><text x="30" y="210" class="text">5. MOKO KAHAN — Fakira</text>
+<text
+x="30"
+y="90"
+class="text">
+1. Khat — Navjot Ahuja
+</text><text
+x="30"
+y="120"
+class="text">
+2. Khawne Gorachand, Khaw... — Arijit Singh
+</text><text
+x="30"
+y="150"
+class="text">
+3. Aaro Ekbar — Rupam Islam
+</text><text
+x="30"
+y="180"
+class="text">
+4. Nemesis — Rupam Islam
+</text><text
+x="30"
+y="210"
+class="text">
+5. MOKO KAHAN — Fakira
+</text>
 
 </svg>
