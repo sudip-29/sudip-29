@@ -4,22 +4,21 @@ import { colors } from "./colors.js";
 
 export function profile(user) {
 
-const bio = user.bio ?? "No bio available";
-const website = user.blog ? user.blog : "Not Provided";
+const bio = user.bio ?? "Code Create Inspire Repeat";
 const location = user.location ? user.location : "Unknown";
 
 return `
 
-${card(40,120,360,760)}
+${card(40,120,360,1155)}
 
-${accent(40,120,760,colors.blue)}
+${accent(40,120,820,colors.blue)}
 
 <!-- Avatar Background -->
 
 <circle
-cx="220"
-cy="250"
-r="92"
+cx="230"
+cy="260"
+r="105"
 fill="#0D1117"
 stroke="${colors.blue}"
 stroke-width="5"/>
@@ -27,12 +26,18 @@ stroke-width="5"/>
 <!-- Avatar -->
 
 <image
-href="${user.avatar_url}"
-x="130"
-y="160"
-width="180"
-height="180"
-clip-path="circle(90px at 90px 90px)"/>
+<image
+    href="https://raw.githubusercontent.com/sudip-29/sudip-29/main/assets/my-photo.png"
+    x="125"
+    y="155"
+    width="210"
+    height="210"
+    clip-path="circle(105px at 105px 105px)"/>
+x="125"
+y="155"
+width="210"
+height="210"
+clip-path="circle(105px at 105px 105px)"/>
 
 <!-- Rotating Ring -->
 
@@ -58,11 +63,11 @@ repeatCount="indefinite"/>
 
 <!-- Name -->
 
-${text(90,405,user.name ?? user.login,34,colors.white,"bold")}
+${text(85,440,user.name ?? user.login,40,colors.white,"bold")}
 
 <!-- Username -->
 
-${text(90,440,"@"+user.login,20,colors.gray)}
+${text(85,480,"@"+user.login,22,colors.gray)}
 
 <!-- Verified Badge -->
 
@@ -82,40 +87,64 @@ font-weight="bold">✓</text>
 <!-- Bio -->
 
 ${wrappedText(
-90,
-490,
+85,
+540,
 bio,
-28,
-24,
-18,
+32,
+26,
+19,
 colors.white
 )}
 
 <!-- Divider -->
 
 <line
-x1="80"
-y1="525"
-x2="340"
-y2="525"
+x1="75"
+y1="600"
+x2="345"
+y2="600"
 stroke="${colors.border}"/>
 
 <!-- Information -->
 
-${text(90,570,"Joined",18,colors.gray)}
-${text(190,570,new Date(user.created_at).toLocaleDateString(),18)}
+${text(90,650,"Joined",18,colors.gray)}
+${text(190,650,new Date(user.created_at).toLocaleDateString(),18)}
 
-${text(90,620,"Followers",18,colors.gray)}
-${text(190,620,user.followers.toString(),18)}
+${text(90,715,"Followers",18,colors.gray)}
+${text(190,715,user.followers.toString(),18)}
 
-${text(90,670,"Following",18,colors.gray)}
-${text(190,670,user.following.toString(),18)}
+${text(90,780,"Following",18,colors.gray)}
+${text(190,780,user.following.toString(),18)}
 
-${text(90,720,"Location",18,colors.gray)}
-${text(190,720,location,18)}
+${text(90,845,"Location",18,colors.gray)}
+${text(190,845,location,18)}
 
-${text(90,770,"Website",18,colors.gray)}
-${text(190,770,website,18,colors.blue)}
+${text(90,910,"Website",18,colors.gray)}
+<a href="https://github.com/sudip-29" target="_blank">
+    <text
+        x="190"
+        y="905"
+        font-size="18"
+        fill="${colors.blue}"
+        style="cursor:pointer;text-decoration:underline;">
+        sudip-29
+    </text>
+</a>
+
+${text(85,975,"Company",19,colors.gray)}
+${text(190,975,user.company || "Not Provided",19)}
+
+${text(85,1040,"Email",19,colors.gray)}
+<a href="mailto:hey.thisissudip@email.com">
+    <text
+        x="190"
+        y="1040"
+        font-size="18"
+        fill="${colors.blue}"
+        style="cursor:pointer;text-decoration:underline;">
+        Mail Me
+    </text>
+</a>
 
 `;
 }

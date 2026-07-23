@@ -3,8 +3,11 @@ import {
     getRepos,
     getContributionData,
     getLanguages,
-    getRecentRepos
+    getRecentRepos,
+    getProfileViews
 } from "./github.js";
+
+import { selectedYear } from "./years.js";
 
 export async function loadGitHubData(username) {
 
@@ -13,13 +16,15 @@ export async function loadGitHubData(username) {
         repos,
         contribution,
         languages,
-        recentRepos
+        recentRepos,
+        profileViewsCount
     ] = await Promise.all([
         getUser(username),
         getRepos(username),
-        getContributionData(username),
+        getContributionData(username, selectedYear),
         getLanguages(username),
-        getRecentRepos(username)
+        getRecentRepos(username),
+        getProfileViews(username)
     ]);
 
     return {
@@ -27,6 +32,7 @@ export async function loadGitHubData(username) {
         repos,
         contribution,
         languages,
-        recentRepos
+        recentRepos,
+        profileViewsCount
     };
-}                   
+}

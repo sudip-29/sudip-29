@@ -53,6 +53,14 @@ export function filters() {
     return `
     <defs>
 
+
+    <style>
+    .repo:hover{
+    opacity:0.8;
+    cursor:pointer;
+    }
+    </style>
+
         <filter id="shadow">
             <feDropShadow
                 dx="0"

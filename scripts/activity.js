@@ -16,51 +16,59 @@ import {
 
 export function activity(repos) {
 
+    const cardHeight = 70 + repos.length * 78;
+
     let rows = "";
 
-    repos.forEach((repo, index) => {
+    repos.forEach((repository, index) => {
 
-        const rowY = 885 + index * 70;
+        const rowY = 885 + index * 78;
 
         rows += `
 
 ${repo(470, rowY + 6, colors.blue)}
 
+<a
+href="${repository.html_url}"
+target="_blank">
+
 ${text(
-490,
+500,
 rowY + 10,
-repo.name,
+repository.name,
 18,
 colors.white,
 "bold"
 )}
 
-${star(490, rowY + 38, colors.pink)}
+</a>
+
+${star(500, rowY + 38, colors.pink)}
 
 ${text(
-505,
+520,
 rowY + 42,
-repo.stargazers_count,
+repository.stargazers_count,
 14,
 colors.gray
 )}
 
-${fork(570, rowY + 38, colors.purple)}
+${fork(610, rowY + 38, colors.purple)}
 
 ${text(
-585,
+630,
 rowY + 42,
-repo.forks_count,
+repository.forks_count,
 14,
 colors.gray
 )}
 
-${calendar(655, rowY + 38, colors.orange)}
+${calendar(740, rowY + 38, colors.orange)}
 
 ${text(
-672,
+760,
 rowY + 42,
-new Date(repo.updated_at).toLocaleDateString(
+new Date(repository.updated_at).toLocaleDateString(
     "en-GB",
     {
         day: "2-digit",
@@ -75,12 +83,15 @@ colors.gray
 ${
 index !== repos.length - 1
 ?
-`<line
-x1="470"
-y1="${rowY + 60}"
-x2="1010"
-y2="${rowY + 60}"
-stroke="#30363D"/>`
+`
+<line
+x1="500"
+y1="${rowY + 58}"
+x2="980"
+y2="${rowY + 58}"
+stroke="#30363D"
+stroke-width="1"/>
+`
 :
 ""
 }
@@ -94,7 +105,7 @@ ${card(
     CONTENT_X,
     815,
     610,
-    280
+    cardHeight
 )}
 
 ${text(

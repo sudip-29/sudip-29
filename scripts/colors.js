@@ -14,8 +14,12 @@ export const colors = {
   pink: "#FF7BCE",
   yellow: "#D29922",
 
+
+
+
   heat0: "#161B22",
   heat1: "#0E4429",
-  heat2: "#26A641",
-  heat3: "#39D353",
+  heat2: "#006D32",
+  heat3: "#26A641",
+  heat4: "#39D353"
 };

@@ -7,7 +7,6 @@ import { statCard } from "./stats.js";
 import { contributionGraph } from "./graph.js";
 import { languagesChart } from "./languages.js";
 import { activity } from "./activity.js";
-import { footer } from "./footer.js";
 
 import { loadGitHubData } from "./githubData.js";
 import { USERNAME } from "./constants.js";
@@ -15,15 +14,18 @@ import {
     PAGE_WIDTH,
     PAGE_HEIGHT
 } from "./layout.js";
+import { profileViews } from "./profileViews.js";
+import { contributionCalendar } from "./contributionCalendar.js";
 
-try {
+export async function generateDashboard() {
 
     const {
         user,
         repos,
         contribution,
         languages,
-        recentRepos
+        recentRepos,
+        profileViewsCount
     } = await loadGitHubData(USERNAME);
 
     const calendar =
@@ -38,8 +40,8 @@ try {
     });
 
     const dashboard = svg(
-    PAGE_WIDTH,
-    PAGE_HEIGHT,
+        PAGE_WIDTH,
+        PAGE_HEIGHT,
 
         `
 
@@ -107,10 +109,12 @@ ${activity(recentRepos)}
 
 ${languagesChart(languages)}
 
-${footer()}
+${profileViews(profileViewsCount)}
+
+${contributionCalendar(calendar)}
+
 
 `
-
     );
 
     fs.writeFileSync(
@@ -119,6 +123,11 @@ ${footer()}
     );
 
     console.log("✅ Dashboard Generated");
+}
+
+try {
+
+    await generateDashboard();
 
 } catch (error) {
 

@@ -34,11 +34,17 @@ export async function getRepos(username){
     return await rest(`/users/${username}/repos?per_page=100`);
 }
 
-export async function getContributionData(username) {
+export async function getContributionData(username, year) {
+
+  const from = `${year}-01-01T00:00:00Z`;
+  const to = `${year}-12-31T23:59:59Z`;
   const query = `
   {
     user(login: "${username}") {
-      contributionsCollection {
+      contributionsCollection(
+        from: "${from}"
+        to: "${to}"
+      ) {
         contributionCalendar {
           totalContributions
           weeks {
@@ -80,4 +86,23 @@ export async function getRecentRepos(username) {
     return await rest(
         `/users/${username}/repos?sort=updated&per_page=5`
     );
+}
+
+export async function getProfileViews(username) {
+    try {
+        const res = await fetch(
+            `https://komarev.com/ghpvc/?username=${username}`
+        );
+
+        const svg = await res.text();
+
+        const match = svg.match(/>([\d,]+)<\/text>/);
+
+        if (!match) return 0;
+
+        return Number(match[1].replace(/,/g, ""));
+    } catch (err) {
+        console.error("Failed to fetch profile views:", err);
+        return 0;
+    }
 }

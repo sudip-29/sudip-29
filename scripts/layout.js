@@ -1,6 +1,14 @@
 // Dashboard Size
 export const PAGE_WIDTH = 1600;
-export const PAGE_HEIGHT = 1300;
+
+export const DASHBOARD_HEIGHT = 1350;
+export const CALENDAR_HEIGHT = 320;
+export const SECTION_GAP = 40;
+
+export const PAGE_HEIGHT =
+    DASHBOARD_HEIGHT +
+    SECTION_GAP +
+    CALENDAR_HEIGHT;
 
 // Margins
 export const LEFT = 40;
@@ -19,7 +27,7 @@ export const CONTENT_WIDTH =
 export const LEFT_PANEL_WIDTH = 620;
 
 export const RIGHT_PANEL_WIDTH =
-    CONTENT_WIDTH - LEFT_PANEL_WIDTH - GAP;
+    CONTENT_WIDTH - LEFT_PANEL_WIDTH - GAP - 55;
 
 // Common Heights
 export const CARD_HEIGHT = 260;
