@@ -135,7 +135,7 @@
 <h2 align="center">💬 Favorite Quote</h2>
 
 <p align="center">
-  <i>"Remember that just because you hit bottom doesn't mean you have to stay there."</i><br><br>
+  <i>"Listen, smile, agree, and then do whatever the fuck you were gonna do anyway."</i><br><br>
   <b>— Robert Downey Jr.</b>
 </p>
 
