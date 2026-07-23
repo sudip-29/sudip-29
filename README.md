@@ -9,6 +9,16 @@
   </a>
 </p>
 
+
+<h2 align="center">📊 GitHub Dashboard</h2>
+
+<p align="center">
+    <img
+        src="./assets/github-dashboard.svg"
+        width="100%">
+</p>
+
+
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="60" alt="c logo"  />
   <img width="12" />
@@ -55,46 +65,6 @@
 
 </p>
 
-
-<!-- <h2 align="center">📊 GitHub Analytics</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=sudip-29&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" height="170" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sudip-29&layout=compact&theme=github_dark&hide_border=true" height="170" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=sudip-29&theme=github-dark&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sudip-29&theme=github-dark&hide_border=true" width="98%" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sudip-29&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
-</p>
-
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/409ba5/sudip-29" alt="Contribution Calendar" width="100%" />
-</p> -->
-
-
-  <!-- <h2 align="center">📊 GitHub Analytics</h2>
-
-  <p align="center">
-  <img src="./assets/github-streak.svg" width="100%">
-</p> -->\
-
-
-<h2 align="center">📊 GitHub Dashboard</h2>
-
-<p align="center">
-    <img
-        src="./assets/github-dashboard.svg"
-        width="100%">
-</p>
 
 
 <h2 align="center">🎵 Currently Listening To</h2>
