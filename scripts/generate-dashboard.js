@@ -48,7 +48,7 @@ export async function generateDashboard() {
 ${profile(user)}
 
 ${statCard(
-440,
+420,
 120,
 "Total Stars",
 stars,
@@ -57,7 +57,7 @@ stars,
 )}
 
 ${statCard(
-790,
+795,
 120,
 "Repositories",
 user.public_repos,
@@ -66,7 +66,7 @@ user.public_repos,
 )}
 
 ${statCard(
-1140,
+1170,
 120,
 "Followers",
 user.followers,
@@ -75,7 +75,7 @@ user.followers,
 )}
 
 ${statCard(
-440,
+420,
 320,
 "Forks",
 forks,
@@ -84,7 +84,7 @@ forks,
 )}
 
 ${statCard(
-790,
+795,
 320,
 "Following",
 user.following,
@@ -93,7 +93,7 @@ user.following,
 )}
 
 ${statCard(
-1140,
+1170,
 320,
 "Contributions",
 calendar.totalContributions,

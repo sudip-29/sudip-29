@@ -85,15 +85,15 @@ ${text(85,480,"@"+user.login,22,colors.gray)}
 <!-- Verified Badge -->
 
 <circle
-cx="315"
-cy="397"
-r="10"
+cx="310"
+cy="340"
+r="15"
 fill="${colors.blue}"/>
 
 <text
-x="311"
-y="402"
-font-size="12"
+x="305"
+y="348"
+font-size="17"
 fill="white"
 font-weight="bold">✓</text>
 
