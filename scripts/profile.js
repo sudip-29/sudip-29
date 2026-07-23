@@ -1,11 +1,13 @@
 import { card, accent } from "./components.js";
 import { text, wrappedText } from "./utils.js"; 
 import { colors } from "./colors.js";
+import { imageToBase64 } from "./image.js";
 
 export function profile(user) {
 
 const bio = user.bio ?? "Code Create Inspire Repeat";
 const location = user.location ? user.location : "Unknown";
+const avatar = imageToBase64("assets/my-photo.jpg");
 
 return `
 
@@ -26,7 +28,7 @@ stroke-width="5"/>
 <!-- Avatar -->
 
 <image
-    href="https://raw.githubusercontent.com/sudip-29/sudip-29/main/assets/my-photo.jpg"
+    href="${avatar}"
     x="125"
     y="155"
     width="210"
