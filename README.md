@@ -10,8 +10,6 @@
 </p>
 
 
-<h2 align="center">📊 Dashboard</h2>
-
 <p align="center">
     <img
         src="./assets/github-dashboard.svg"
