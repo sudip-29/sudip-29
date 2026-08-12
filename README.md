@@ -16,7 +16,7 @@
         width="100%">
 </p>
 
-<!-- <h2 align="center">💻 Tech Stack</h2>
+<h2 align="center">💻 Tech Stack</h2>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="60" alt="c logo"  />
@@ -50,17 +50,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="60" alt="nodejs logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="60" alt="postgresql logo"  />
-</div> -->
+</div>
 
-<h2 align="center">💻 Tech Stack</h2>
-
-<p align="center">
-  <img
-    src="./assets/tech-stack-29.svg"
-    width="100%"
-    alt="Sudip Pal Tech Stack"
-  />
-</p>
 
 
 <h2 align="center">🌱 Currently Learning</h2>
