@@ -57,13 +57,9 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="60" alt="postman logo" />
   <img width="12" />
-  <img src="https://cdn.worldvectorlogo.com/logos/google-play-console.svg" height="60" alt="Google Play Console logo" />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="60" alt="google cloud logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="60" alt="firebase logo" />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/render/46E3B7" height="60" alt="Render logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" height="60" alt="vercel logo" />
   <img width="12" />
