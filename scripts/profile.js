@@ -11,7 +11,7 @@ const avatar = imageToBase64("assets/my-photo.jpg");
 
 return `
 
-${card(40,120,360,1155)}
+${card(45,120,360,1155)}
 
 ${accent(40,120,820,colors.blue)}
 
@@ -120,26 +120,26 @@ stroke="${colors.border}"/>
 
 <!-- Information -->
 
-${text(90,650,"Joined",18,colors.gray)}
-${text(190,650,new Date(user.created_at).toLocaleDateString(),18)}
+${text(65,650,"Joined",18,colors.gray)}
+${text(165,650,new Date(user.created_at).toLocaleDateString(),19)}
 
-${text(90,715,"Followers",18,colors.gray)}
-${text(190,715,user.followers.toString(),18)}
+${text(65,715,"Followers",18,colors.gray)}
+${text(165,715,user.followers.toString(),19)}
 
-${text(90,780,"Following",18,colors.gray)}
-${text(190,780,user.following.toString(),18)}
+${text(65,780,"Following",18,colors.gray)}
+${text(165,780,user.following.toString(),19)}
 
-${text(90,845,"Location",18,colors.gray)}
-${text(190,845,location,18)}
+${text(65,845,"Location",18,colors.gray)}
+${text(165,845,location,19)}
 
-${text(90,910,"Website",18,colors.gray)}
-${text(190,910,"https://sudip-29.github.io/",12,colors.white)}
+${text(65,910,"Website",18,colors.gray)}
+${text(165,910,"https://sudip-29.github.io/",19,colors.white)}
 
-${text(85,975,"Company",19,colors.gray)}
-${text(190,975,user.company || "Not Provided",19)}
+${text(65,975,"Company",19,colors.gray)}
+${text(165,975,user.company || "Not Provided",19)}
 
-${text(85,1040,"Email",19,colors.gray)}
-${text(190,1040,"hey.thisissudip@gmail.com",15,colors.white)}
+${text(65,1040,"Email",19,colors.gray)}
+${text(165,1040,"hey.thisissudip@gmail.com",19,colors.white)}
 
 `;
 }

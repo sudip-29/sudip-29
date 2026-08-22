@@ -24,14 +24,14 @@ export function contributionCalendar(calendar) {
     let svg = `
 
 ${card(
-145,
+120,
 1300,
 1300,
 280
 )}
 
 ${text(
-175,
+150,
 1335,
 "Contribution Calendar",
 26,
@@ -40,7 +40,7 @@ colors.white,
 )}
 
 ${text(
-1310,
+1285,
 1385,
 currentYear.toString(),
 18,
@@ -50,7 +50,7 @@ colors.gray,
 )}
 
 ${text(
-180,
+155,
 1355,
 `${calendar.totalContributions.toLocaleString()} contributions in the last year`,
 15,
