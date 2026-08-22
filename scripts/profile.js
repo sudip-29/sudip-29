@@ -133,7 +133,7 @@ ${text(90,845,"Location",18,colors.gray)}
 ${text(190,845,location,18)}
 
 ${text(90,910,"Website",18,colors.gray)}
-${text(190,910,"https://sudip-29.github.io/BrowseMe/",12,colors.white)}
+${text(190,910,"https://sudip-29.github.io/",12,colors.white)}
 
 ${text(85,975,"Company",19,colors.gray)}
 ${text(190,975,user.company || "Not Provided",19)}
