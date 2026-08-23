@@ -131,18 +131,25 @@
 
 <h2 align="center">📫 Connect With Me</h2>
 <div align="center">
-  <a href="https://linkedin.com/in/sudip-pal-546403318" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25" alt="LinkedIn"/>
-  </a>
-  <a href="https://twitter.com/SudipPal2005" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" height="25" alt="Twitter"/>
-  </a>
-  <a href="https://instagram.com/_sudip_29_" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="25" alt="Instagram"/>
-  </a>
-  <a href="https://discord.gg/sudip_29" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="25" alt="Discord"/>
-  </a>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 0; flex-wrap: nowrap; white-space: nowrap;">
+
+    <a href="https://linkedin.com/in/sudip-pal-546403318" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25" alt="LinkedIn"/>
+    </a>
+
+    <a href="https://twitter.com/SudipPal2005" target="_blank">
+      <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" height="25" alt="Twitter"/>
+    </a>
+
+    <a href="https://instagram.com/_sudip_29_" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="25" alt="Instagram"/>
+    </a>
+
+    <a href="https://discord.gg/sudip_29" target="_blank">
+      <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="25" alt="Discord"/>
+    </a>
+
+  </div>
 </div>
 
 <h2 align="center">🗣️ Words I Follow</h2>
