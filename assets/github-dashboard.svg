@@ -245,7 +245,7 @@ font-size="19"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-30/7/2025
+7/29/2025
 </text>
 
 
@@ -1164,7 +1164,7 @@ stroke-width="2"/>
 
 
 <a
-href="https://github.com/sudip-29/sudip-29"
+href="https://github.com/sudip-29/sudip-29.github.io"
 target="_blank">
 
 
@@ -1176,7 +1176,7 @@ font-size="18"
 font-family="Inter,Segoe UI,Arial"
 font-weight="bold"
 text-anchor="start">
-sudip-29
+sudip-29.github.io
 </text>
 
 </a>
@@ -1324,7 +1324,7 @@ stroke-width="2"/>
 
 
 <a
-href="https://github.com/sudip-29/sudip-29.github.io"
+href="https://github.com/sudip-29/sudip-29"
 target="_blank">
 
 
@@ -1336,7 +1336,7 @@ font-size="18"
 font-family="Inter,Segoe UI,Arial"
 font-weight="bold"
 text-anchor="start">
-sudip-29.github.io
+sudip-29
 </text>
 
 </a>
@@ -1440,7 +1440,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-20 Aug 26
+22 Aug 26
 </text>
 
 
@@ -1760,7 +1760,7 @@ font-size="14"
 font-family="Inter,Segoe UI,Arial"
 font-weight="normal"
 text-anchor="start">
-06 Aug 26
+05 Aug 26
 </text>
 
 
@@ -1971,7 +1971,7 @@ stroke="#58A6FF"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="147.37069541915233 490.0884539600077"
+stroke-dasharray="147.37621342825835 490.0884539600077"
 stroke-dashoffset="0">
 
 <animate
@@ -1992,13 +1992,13 @@ stroke="#3FB950"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="108.31025377003125 490.0884539600077"
-stroke-dashoffset="-147.37069541915233">
+stroke-dasharray="108.31430923685849 490.0884539600077"
+stroke-dashoffset="-147.37621342825835">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-147.37069541915233"
+to="-147.37621342825835"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2013,13 +2013,13 @@ stroke="#F0883E"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="90.56403369935842 490.0884539600077"
-stroke-dashoffset="-255.6809491891836">
+stroke-dasharray="90.56742469348525 490.0884539600077"
+stroke-dashoffset="-255.69052266511684">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-255.6809491891836"
+to="-255.69052266511684"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2034,13 +2034,13 @@ stroke="#BC8CFF"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="75.8536731973014 490.0884539600077"
-stroke-dashoffset="-346.24498288854204">
+stroke-dasharray="75.85651339058568 490.0884539600077"
+stroke-dashoffset="-346.2579473586021">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-346.24498288854204"
+to="-346.2579473586021"
 dur="1.5s"
 fill="freeze"/>
 
@@ -2055,13 +2055,13 @@ stroke="#FF7BCE"
 stroke-width="22"
 stroke-linecap="round"
 transform="rotate(-90 1185 965)"
-stroke-dasharray="67.98979787416432 490.0884539600077"
-stroke-dashoffset="-422.09865608584346">
+stroke-dasharray="67.97399321081994 490.0884539600077"
+stroke-dashoffset="-422.1144607491878">
 
 <animate
 attributeName="stroke-dashoffset"
 from="490.0884539600077"
-to="-422.09865608584346"
+to="-422.1144607491878"
 dur="1.5s"
 fill="freeze"/>
 
