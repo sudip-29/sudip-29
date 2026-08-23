@@ -132,15 +132,7 @@
 <h2 align="center">📫 Connect With Me</h2>
 
 <div align="center">
-<a href="https://linkedin.com/in/sudip-pal-546403318" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat" alt="LinkedIn"/>
-</a><a href="https://twitter.com/SudipPal2005" target="_blank">
-  <img src="https://img.shields.io/badge/Twitter-000000?style=flat&logo=x&logoColor=white" alt="Twitter"/>
-</a><a href="https://instagram.com/_sudip_29_" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram"/>
-</a><a href="https://discord.gg/sudip_29" target="_blank">
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"/>
-</a>
+<a href="https://linkedin.com/in/sudip-pal-29-" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat" alt="LinkedIn"/></a><a href="https://twitter.com/Sudip_29_" target="_blank"><img src="https://img.shields.io/badge/Twitter-000000?style=flat&logo=x&logoColor=white" alt="Twitter"/></a><a href="https://instagram.com/_sudip_29_" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram"/></a><a href="https://discord.gg/sudip_29" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"/></a>
 </div>
 
 <h2 align="center">🗣️ Words I Follow</h2>
