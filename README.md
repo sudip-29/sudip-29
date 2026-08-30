@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://sudip-29.github.io/">
+  <a href="https://sudoip.me/">
     <img
       src="./intro.gif"
       alt="👋 Hi there! I'm Sudip Pal"
